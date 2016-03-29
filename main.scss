@@ -1,0 +1,130 @@
+$neon: #42dca3;
+$text: #555;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+.input {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin: auto;
+  display: block;
+  left: 0;
+  right: 0;
+  &:first-of-type {
+    top: 100px;
+  }
+  &:nth-of-type(2) {
+    top: 160px;
+  }
+  &:nth-of-type(3) {
+    top: 220px;
+  }
+}
+.input input {
+  position: relative;
+  width: 100%;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $text;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 12px 10px;
+}
+.input input:focus {
+  box-shadow: 0 0 3px 1px rgba(0,180,200,.5);
+}
+.input .border-line {
+  width: 100%;
+  border: 3px solid $neon;
+  border-top: none;
+  height: 18%;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.25);
+}
+.flat-button {
+  border: 2px solid #42dca3;
+  color: $neon;
+  background-color: transparent;
+  position: absolute;
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 50px;
+  top: 300px;
+  width: 300px;
+  cursor: pointer;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.25);
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  &:hover {
+    border: 1px solid #42dca3;
+    outline: 0;
+    color: white;
+    background-color: #42dca3;
+  }
+}
+h1 {
+  font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  width: 300px;
+  margin: auto;
+  font-family: sans-serif;
+  color: $text;
+  padding-right: 26px;
+}
+#tests {
+  width: 320px;
+  margin: auto;
+  margin-top: 320px;
+  list-style: none;
+  padding-left: 0;
+  li {
+    padding: 20px;
+    border-bottom: 1px dotted $neon;
+    color: $text;
+    cursor: pointer;
+    &:hover {
+      background: #42dca3;
+      color: white;
+    }
+  }
+}
+#modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.69);
+  z-index: 2;
+  img{
+    margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  }
+}
+a {
+  color: #0060b6;
+  text-decoration: none;
+}
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hidden{
+  display: none;
+}

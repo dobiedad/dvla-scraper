@@ -1,0 +1,30 @@
+{
+  "name": "dvla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "0.20.0",
+    "express": "4.13.4",
+    "httpism": "1.11.0",
+    "jquery": "^2.2.1",
+    "jsonfile": "^2.2.3",
+    "moment": "2.12.0",
+    "morgan": "^1.7.0",
+    "node-inspector": "0.12.7",
+    "node-sass": "3.4.2",
+    "node-sass-middleware": "0.9.7",
+    "path": "0.12.7",
+    "phantomjs": "^2.1.3",
+    "plastiq": "1.27.0",
+    "selenium-webdriver": "2.52.0",
+    "simplecrawler": "0.6.2",
+    "underscore": "1.8.3",
+    "watchify": "3.7.0"
+  }
+}
