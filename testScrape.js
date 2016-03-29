@@ -1,9 +1,9 @@
 var scrape = require('./scrape');
 var webdriver = require('selenium-webdriver');
 
-var licenseNumber =  "ENTER YOUR LICENCE",
-var theoryPassNumber = "ENTER YOUR THEORY PASS NUMBER",
-var postcode = "ENTER YOUR POSTCODE",
+var licenseNumber =  "ENTER YOUR LICENCE";
+var theoryPassNumber = "ENTER YOUR THEORY PASS NUMBER";
+var postcode = "ENTER YOUR POSTCODE";
 
 var driver = new webdriver.Builder()
   .forBrowser('chrome')
