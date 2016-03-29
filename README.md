@@ -1,5 +1,5 @@
 ## DVLA Scraper
-Scraper for finding driving test date cancelations. I passed my driving test before i managed to finish this project off as a website. Pull requests are welcome
+Scraper for finding driving test date cancellation. I passed my driving test before i managed to finish this project off as a website. Pull requests are welcome
 
 ## Install
 ##### [NPM](https://www.npmjs.com/)
